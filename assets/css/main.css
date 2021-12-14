@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+/*$footNavBg : #000000;*/
+/*$navHeight : 60px;*/
+/*$footHeight : 68px;*/
+
+nav {
+  height: 60px;
+  background: #000000;
+}
+
+footer {
+  height: 68px;
+  background: #000000;
+}
+
+.mainContainer {
+  background: #E5E5E5;
+}
+
+.mainDisplay {
+  height: 1020px;
+  /*width: 1920px;*/
+  background: url("../../static/main.png") no-repeat center;
+}
+
+.mainDisplay .monsterBokeh {
+  position: relative;
+  /*width: 174px;*/
+  height: 27px;
+  /*top: 241px;*/
+
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.1em;
+
+  color: #FFFFFF;
+}
+
+.mainDisplay .bigText {
+  position: relative;
+  height: 144px;
+  /*top: 368px;*/
+
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 150%;
+
+  color: #FFFFFF;
+}
+
+.arrow {
+  position : relative;
+  top : 670px;
+}
+
+.main-content {
+  min-height : 7105px;
+}
+
+.examples-inscription {
+  position: relative;
+  height: 60px;
+  top: 140px;
+
+  font-family: Open Sans, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 150%;
+
+  color: #000000;
+}
+
+.image-box {
+  height : 1117px;
+  width : 1306px;
+  position : relative;
+  top : 220px;
+}
+
+.image-box .image1 {
+  width: 621px;
+  height: 576px;
+  float : left;
+}
+
+.image-box .image2 {
+  position : relative;
+  left : 24px;
+  width: 290px;
+  height: 576px;
+  float : left;
+}
+
+.image-box .image3 {
+  position : relative;
+  left : 48px;
+  float : left;
+  width: 347px;
+  height: 275px;
+}
+
+.image-box .image4 {
+  position : relative;
+  left : 48px;
+  top : 24px;
+  float : left;
+  width: 347px;
+  height: 277px;
+}
+
+.image-box .image5 {
+  position : relative;
+  top : 23px;
+  float : right;
+  border : 1px solid black;
+  width: 661px;
+  height: 577px;
+}
+
+.image-box .image6 {
+  position : relative;
+  right : 24px;
+  top : 23px;
+  float : right;
+  width: 294px;
+  height: 578px;
+  border : 1px solid black;
+
+}
+
+.image-box .image7 {
+  position : relative;
+  top : 23px;
+  right : 48px;
+  float : right;
+  width: 303px;
+  height: 279px;
+  border: 1px solid black;
+}
+
+
+.image-box .image8 {
+  position : relative;
+  top : 47px;
+  right : 48px;
+  float : right;
+  width: 303px;
+  height: 275px;
+  border: 1px solid black;
+}

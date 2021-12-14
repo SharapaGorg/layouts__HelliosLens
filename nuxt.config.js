@@ -19,7 +19,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@/assets/scss/main.scss',
+    // '@/assets/scss/main.scss',
     '@assets/css/main.css'
   ],
 
@@ -38,12 +38,12 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    "@nuxtjs/style-resources",
-    'nuxt-webfontloader'
+    // "@nuxtjs/style-resources",
+    // 'nuxt-webfontloader'
   ],
-  styleResources : {
-    scss : ["./assets/scss/@.scss"]
-  },
+  // styleResources : {
+  //   scss : ["./assets/scss/@.scss"]
+  // },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
