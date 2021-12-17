@@ -11,7 +11,7 @@
       <div class='main-content'>
         <div class='examples-inscription'>Examples of photos taken on Helios</div>
         <div class='image-box'>
-          <img src='../static/image1.svg' class='image1' ref='image'/>
+          <img src='../static/image1.svg' class='image1'/>
           <img src='../static/image2.svg' class='image2'/>
           <img src='../static/image3.svg' class='image3'/>
           <img src='../static/image4.svg' class='image4'/>

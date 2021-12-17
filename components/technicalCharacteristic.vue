@@ -22,7 +22,6 @@ export default {
     }
   },
   mounted() {
-    const container = this.$refs.main;
     if (this.titleW) {
         this.$refs.title.style.width = this.titleW + 'px'
     }
