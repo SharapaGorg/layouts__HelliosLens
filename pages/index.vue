@@ -44,7 +44,6 @@
             <technical-characteristic svg-path="tech4.svg" title="Optical diagram of type 'Planar'"
                                       description="The optical circuit was copied from the Carl Zeiss Jena Biotar 2/58 lens."/>
           </div>
-
         </div>
 
         <div class='dandelion-box'>
@@ -53,9 +52,16 @@
           <img src='../static/arrow.svg'/>
         </div>
 
-
+        <span class = 'examples-inscription' style ='display: block; margin-bottom : 140px'>Buy a helios lens</span>
+        <div class = 'helios'>
+            <HeliosLens :img-path="heliosUnit.imgPath" :title="heliosUnit.title" :price="heliosUnit.price"/>
+            <HeliosLens :img-path="heliosUnit.imgPath" :title="heliosUnit.title" :price="heliosUnit.price" />
+            <HeliosLens :img-path="heliosUnit.imgPath" :title="heliosUnit.title" :price="heliosUnit.price" />
+            <HeliosLens :img-path="heliosUnit.imgPath" :title="heliosUnit.title" :price="heliosUnit.price" />
+            <HeliosLens :img-path="heliosUnit.imgPath" :title="heliosUnit.title" :price="heliosUnit.price" />
+            <HeliosLens :img-path="heliosUnit.imgPath" :title="heliosUnit.title" :price="heliosUnit.price" />
+        </div>
       </div>
-
     </center>
   </div>
 </template>
@@ -63,15 +69,23 @@
 <script>
 
 import TechnicalCharacteristic from "../components/technicalCharacteristic";
+import HeliosLens from "../components/HeliosLens";
 
 export default {
   data() {
-    return {}
+    return {
+      heliosUnit : {
+        imgPath : "helios.png",
+        title : "Helios 44M-4 58mm f/2",
+        price : "$45"
+      }
+    }
   },
   mounted() {
   },
   components: {
-    TechnicalCharacteristic
+    TechnicalCharacteristic,
+    HeliosLens
   }
 }
 </script>

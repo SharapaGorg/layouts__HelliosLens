@@ -61,6 +61,7 @@ footer {
 
 .main-content {
   min-height : 7105px;
+  overflow-x: hidden;
 }
 
 .examples-inscription {
@@ -161,6 +162,7 @@ footer {
   height : 470px;
   position : relative;
   top : 450px;
+  margin-bottom : 450px;
 }
 
 .dandelion-box .header {
@@ -181,4 +183,9 @@ footer {
   display: block;
   color: #FFFFFF;
   margin-bottom : 215px;
+}
+
+.helios {
+  width : 1306px;
+  @apply grid grid-cols-3 grid-rows-2;
 }
