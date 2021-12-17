@@ -189,3 +189,65 @@ footer {
   width : 1306px;
   @apply grid grid-cols-3 grid-rows-2;
 }
+
+.filter-box {
+  width : 1306px;
+  height : 40px;
+}
+
+.filter-text-field {
+  outline: none;
+  background: #F8F8F8;
+  border: 1px solid #D7D7D7;
+  box-sizing: border-box;
+  border-radius: 3px 0 0 3px;
+  width : 182px;
+  height : 34px;
+  float : right;
+  @apply px-3 py-1.5;
+}
+
+.zoom-container {
+  float : right;
+  width : 38px;
+  height : 34px;
+  border: 1px solid #D7D7D7;
+  box-sizing: border-box;
+  border-radius: 0 3px 3px 0;
+  background: #F8F8F8;
+  margin-right : 30px;
+}
+
+.zoom {
+  margin-left : auto;
+  margin-right: auto;
+  position : relative;
+  top : 6.62px;
+}
+
+.filter-dropdown {
+  width : 221px;
+  height: 34px;
+  background: #F8F8F8;
+  border: 1px solid #D7D7D7;
+  box-sizing: border-box;
+  border-radius: 3px;
+  float : right;
+}
+
+.dropdownArrow {
+  float : right;
+  margin-right : 15px;
+  margin-top: 12px;
+}
+.filter-dropdown span {
+  font-family: Open Sans, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  margin-right : 18px;
+  position: relative;
+  top : 3px;
+  color: #414141;
+}

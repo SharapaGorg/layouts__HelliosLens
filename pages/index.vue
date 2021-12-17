@@ -52,7 +52,17 @@
           <img src='../static/arrow.svg'/>
         </div>
 
-        <span class = 'examples-inscription' style ='display: block; margin-bottom : 140px'>Buy a helios lens</span>
+        <span class = 'examples-inscription' style ='display: block; margin-bottom : 240px'>Buy a helios lens</span>
+        <div class = 'filter-box'>
+          <div class = 'filter-dropdown'>
+            <img class = 'dropdownArrow' src = '../static/dropdownArrow.svg'>
+            <span>Порядок: по умолчан</span>
+          </div>
+          <div class = 'zoom-container'>
+            <img src = '../static/zoom.svg' class = 'zoom'/>
+          </div>
+          <input class = 'filter-text-field' placeholder = 'Поиск'>
+        </div>
         <div class = 'helios'>
             <HeliosLens :img-path="heliosUnit.imgPath" :title="heliosUnit.title" :price="heliosUnit.price"/>
             <HeliosLens :img-path="heliosUnit.imgPath" :title="heliosUnit.title" :price="heliosUnit.price" />
