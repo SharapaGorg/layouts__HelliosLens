@@ -36,7 +36,7 @@
 
           <div class='col-start-4'>
             <technical-characteristic title-w="96"
-              svg-path="tech3.svg" title='Luminosil 1.5-2.0'
+                                      svg-path="tech3.svg" title='Luminosil 1.5-2.0'
                                       description="Enough for shooting in moderate lighting conditions."/>
           </div>
 
@@ -46,6 +46,13 @@
           </div>
 
         </div>
+
+        <div class='dandelion-box'>
+          <span class='header'>More opportunities for creativity</span>
+          <span class='description'>Focus, diaphragm and hold settings with manual lenses take place in manual mode "M," this gives more opportunities for creativity</span>
+          <img src='../static/arrow.svg'/>
+        </div>
+
 
       </div>
 

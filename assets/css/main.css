@@ -15,7 +15,7 @@ footer {
 }
 
 .mainContainer {
-  background: #E5E5E5;
+  /*background: #E5E5E5;*/
 }
 
 .mainDisplay {
@@ -153,4 +153,32 @@ footer {
   position : relative;
   top : 222px;
   @apply grid grid-cols-6;
+}
+
+.dandelion-box {
+  background-image: url("../../static/dendelion.png");
+  width : 1920px;
+  height : 470px;
+  position : relative;
+  top : 450px;
+}
+
+.dandelion-box .header {
+  @apply examples-inscription;
+  color : white;
+}
+
+.dandelion-box .description {
+  position : relative;
+  top : 150px;
+  width : 677px;
+  font-family: Open Sans, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 150%;
+  /* or 36px */
+  display: block;
+  color: #FFFFFF;
+  margin-bottom : 215px;
 }
