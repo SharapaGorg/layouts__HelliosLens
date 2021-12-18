@@ -12,6 +12,7 @@ nav {
 footer {
   height: 68px;
   background: #000000;
+  margin-top : 140px;
 }
 
 .mainContainer {
@@ -60,7 +61,7 @@ footer {
 }
 
 .main-content {
-  min-height : 7105px;
+  /*min-height : 7105px;*/
   overflow-x: hidden;
 }
 
@@ -153,6 +154,7 @@ footer {
 .technical-characteristics {
   position : relative;
   top : 222px;
+  max-width: 1920px;
   @apply grid grid-cols-6;
 }
 
@@ -187,6 +189,7 @@ footer {
 
 .helios {
   width : 1306px;
+  margin-bottom : 30px;
   @apply grid grid-cols-3 grid-rows-2;
 }
 
@@ -250,4 +253,68 @@ footer {
   position: relative;
   top : 3px;
   color: #414141;
+}
+
+.view-other-lenses {
+  width: 250px;
+  height: 60px;
+  background: #000000;
+  border-radius: 5px;
+  margin-bottom : 140px;
+}
+
+.view-other-lenses span {
+  font-family: Open Sans, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+
+.text-block {
+  width: 864px;
+  text-align : left;
+  margin-top : 60px;
+}
+
+.text-block .title {
+  display : block;
+  font-family: Open Sans, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 150%;
+  color: #000000;
+  margin-bottom : 40px;
+}
+
+.text-content {
+  font-family: Open Sans, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.text-block .content {
+  width: 864px;
+  display : block;
+  @apply text-content;
+}
+
+.text-block1 {
+  width: 1086px;
+  height: 240px;
+  background: #EFF4FC;
+  padding-top: 54px;
+  padding-bottom: 54px;
+}
+
+.text-block1 .text-content {
+  text-align : left;
+  display : block;
+  width: 864px;
+  height: 132px;
 }

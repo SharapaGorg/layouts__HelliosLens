@@ -4,12 +4,12 @@
     <nav>
       <img src = '../static/navLogo.svg' class = 'navLogo'/>
       <div class = 'group-titles'>
-        <span class = 'foot-nav-title' style = 'margin-left : 0'>ORDER LENS</span>
+        <span class = 'foot-nav-title'>ORDER LENS</span>
         <span class = 'foot-nav-title'>SHIPPING AND PAYMENT</span>
         <span class = 'foot-nav-title'>COMPATIBILITY</span>
         <span class = 'foot-nav-title'>RETURN POLICY</span>
         <span class = 'foot-nav-title'>ABOUT US</span>
-        <span class = 'foot-nav-title' style = 'margin-right : 0'>NEWS</span>
+        <span class = 'foot-nav-title'>NEWS</span>
       </div>
       <img src = '../static/navFacebook.svg' class = 'facebook'/>
     </nav>
@@ -56,8 +56,8 @@
 
 .navLogo {
   position : absolute;
-  left: 15.99%;
-  top : 13px;
+  left: 12%;
+  top : 15px;
 }
 
 .group-titles {
